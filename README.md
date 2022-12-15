@@ -10,12 +10,12 @@ Call<br>
 check with "ip r" and a ping to a server in the internet.<br>
 
 
-## 2) Connecting to a VPN-Server
+## 2) Turn of video/audio using processes on head nano
 
-## 3) Turn of video/audio using processes on head nano
-## 4) stream video of frontcam with ffmpeg to rtsp-server
-## 5) Turn on internal wlan
-## 6) Ressources
+
+## 3) stream video of frontcam with ffmpeg to rtsp-server
+## 4) Turn on internal wlan
+## 5) Ressources
 you shall consider taking a deep dive into <br>
 https://github.com/MAVProxyUser/YushuTechUnitreeGo1
 
