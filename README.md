@@ -39,7 +39,7 @@ Boot the Go1 and wait until it stands up.<br>
 Call <code>sudo wifi_up.sh</code><br>
 Check with <code>ip r</code> if the interface is up.<br>
 
-## 6) Ressources
+## 7) Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
 ### brain of my best friend
 
