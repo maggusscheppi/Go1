@@ -39,6 +39,14 @@ Boot the Go1 and wait until it stands up.<br>
 Call <code>sudo wifi_up.sh</code><br>
 Check with <code>ip r</code> if the interface is up.<br>
 
+## 7) Add you own web interface
+You may want to create your own web interface next to the standard views from unitree.<br>
+Here is a simple recipe with a sample page:<br>
+Find the unitree web root: <code>./Unitree/autostart/webMonitor/dist/</code><br>
+Create a folder with your index.html, e.g. <code>./Unitree/autostart/webMonitor/dist/myDog</code><br>
+Take the sample files myDog/index.html, boxes.css, mqtt_util.js and mqttws31.js and place them there.<br>
+Call http://192.168.12.1/myDog/<br>
+
 ## 7) Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
 ### brain of my best friend
