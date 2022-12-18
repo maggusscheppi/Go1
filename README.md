@@ -39,7 +39,7 @@ Boot the Go1 and wait until it stands up.<br>
 Call <code>sudo wifi_up.sh</code><br>
 Check with <code>ip r</code> if the interface is up.<br>
 
-## 7) Add you own web interface
+## 7) Add your own web interface
 You may want to create your own web interface next to the standard views from unitree.<br>
 Here is a simple recipe with a sample page:<br>
 Find the unitree web root: <code>./Unitree/autostart/webMonitor/dist/</code><br>
