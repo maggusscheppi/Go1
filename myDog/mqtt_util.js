@@ -83,9 +83,9 @@ function connect() {
 	connection = null;
 
 	if (window.location.protocol == 'http:') { 
-		addMessage('oo you are accessing via http unsecure');
+		addMessage('oo connecting mqtt client');
 		try {
-			connection = new Paho.MQTT.Client(host,port,"/mqtt", "brizlbrazzl");
+			connection = new Paho.MQTT.Client(host,port,"/mqtt", "myDog");
 			var options = {
 				timeout: 3,
 				onSuccess: onConnect,
