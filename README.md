@@ -47,7 +47,7 @@ Create a folder with your index.html, e.g. <code>./Unitree/autostart/webMonitor/
 Take the sample files myDog/index.html, boxes.css, mqtt_util.js and mqttws31.js and place them there.<br>
 Call http://192.168.12.1/myDog/<br>
 
-## 7) Ressources
+## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
 ### brain of my best friend
 
