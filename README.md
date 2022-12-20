@@ -45,7 +45,8 @@ Here is a simple recipe with a sample page:<br>
 Find the unitree web root: <code>./Unitree/autostart/webMonitor/dist/</code><br>
 Create a folder with your index.html, e.g. <code>./Unitree/autostart/webMonitor/dist/myDog</code><br>
 Take the sample files myDog/index.html, boxes.css, mqtt_util.js and mqttws31.js and place them there.<br>
-Call http://192.168.12.1/myDog/<br>
+Call http://192.168.12.1/myDog/<br><br>
+<img src="https://github.com/maggusscheppi/Go1/blob/main/myDog_ScreenShot.jpg" width=200px;/>
 
 ## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
