@@ -29,7 +29,7 @@ var connection = null;
 var connected = false;
 var client_connected = false;
 var dataTimeOut;
-var host="192.168.12.1";
+var host=window.location.host;
 var port=80;
 
 
