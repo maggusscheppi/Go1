@@ -20,8 +20,9 @@ You have to kill these processes: <br>
 ## 3) Stream video of frontcam with ffmpeg to rtsp-server
 On the head nano (192.168.123.13):<br>
 If the video device /dev/video1 (the frontcam) is available, try this:<br>
-<code>ffmpeg -f video4linux2 -i /dev/video1 -vcodec libx264 -preset:v ultrafast -tune zerolatency -framerate 15 -f flv 'rtsp://yourRTSPserver/yourRTSPconnectionPoint'
-</code>
+<code>ffmpeg -nostdin -f video4linux2 -i /dev/video1 -vcodec libx264 -preset:v ultrafast -tune zerolatency -framerate 15 -f flv 'rtsp://yourRTSPserver/yourRTSPconnectionPoint'
+</code><br>
+For running ffmpeg in the background -nostdin is important because per default ffmpeg expects a user to quit a task.
 
 ## 4) Let the dog bark
 On the head nano (192.168.123.13):<br>
