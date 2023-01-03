@@ -49,6 +49,15 @@ Take the sample files myDog/index.html, boxes.css, mqtt_util.js and mqttws31.js 
 Call http://192.168.12.1/myDog/<br><br>
 UI: <img src="https://github.com/maggusscheppi/Go1/blob/main/myDog_ScreenShot.jpg" width=200px;/> Commands: <img src="https://github.com/maggusscheppi/Go1/blob/main/myDog_ScreenShot_Commands.jpg" width=200px;/>
 
+## 8) Run your own scripts at boot
+You may want to run your own scripts when the bot is starting.<br>
+Unitree made some trick by using Lightdm to tell that user pi is an autologin user.<br>
+Check then <code>~/Unitree/autostart/.startlist.sh</code><br>
+for a list of tasks to start.<br>
+Each entry must be a name of a subfolder with a startscript.<br>
+E.g.<br>
+<code>~/Unitree/autostart/tunnel/tunnel.sh</code><br>
+
 ## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
 ### brain of my best friend
