@@ -52,7 +52,7 @@ UI: <img src="https://github.com/maggusscheppi/Go1/blob/main/myDog_ScreenShot.jp
 ## 8) Run your own scripts at boot
 You may want to run your own scripts when the bot is starting.<br>
 Unitree made some trick by using Lightdm to tell that user pi is an autologin user.<br>
-Check then <code>~/Unitree/autostart/.startlist.sh</code><br>
+Check then <code>\~/Unitree/autostart/.startlist.sh</code><br>
 for a list of tasks to start.<br>
 Each entry must be a name of a subfolder with a startscript.<br>
 E.g.<br>
