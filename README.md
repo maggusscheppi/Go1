@@ -45,7 +45,7 @@ You may want to create your own web interface next to the standard views from un
 Here is a simple recipe with a sample page:<br>
 Find the unitree web root: <code>./Unitree/autostart/webMonitor/dist/</code><br>
 Create a folder with your index.html, e.g. <code>./Unitree/autostart/webMonitor/dist/myDog</code><br>
-Take the sample files myDog/index.html, boxes.css, mqtt_util.js and mqttws31.js and place them there.<br>
+Take the sample files and place them there.<br>
 Call http://192.168.12.1/myDog/<br><br>
 UI: <img src="https://github.com/maggusscheppi/Go1/blob/main/myDog_ScreenShot.jpg" width=200px;/> Commands: <img src="https://github.com/maggusscheppi/Go1/blob/main/myDog_ScreenShot_Commands.jpg" width=200px;/>
 
@@ -57,6 +57,19 @@ for a list of tasks to start.<br>
 Each entry must be a name of a subfolder with a startscript.<br>
 E.g.<br>
 <code>~/Unitree/autostart/tunnel/tunnel.sh</code><br>
+
+## 9) Let the head led blink red when battery soc is 4
+You may want to have an indicator that your dog wants to lay down before the energy is too low.<br>
+Unfortunately the app does not warn you.<br>
+With a python script that start with boot phase (see chapter 8) the battery state is monitored via mqtt.<br>
+At soc (state of charge [100...0]) 3 the system will stop engines, the bot will lay down.<br>
+This script warns you at soc = 3 with red led blinking.<br>
+Copy the directory <code>\~/Unitree/autostart/diagnosis</code> to your raspi.<br>
+Edit <code>.startlist.sh</code> and add at the end the line <code>diagnosis</code>.<br>
+Now take the webpart <code>\~/Unitree/autostart/webMonitor/dist/diagnosis</code> and copy it also on your system.<br>
+At next boot phase this script will run. You may check by <br>
+<code>tail -f ~/Unitree/autostart/webMonitor/dist/diagnosis/bms.csv</code><br>
+if data is stored or by accessing the web visualisation with <code>http://192.168.12.1/diagnosis</code>
 
 ## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
