@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>.:Go1 simple web controller:.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Schepp">
+	<meta name="generator" content="vi">
+	<meta http-equiv="cache-control" content="no-cache">
+	<link href="boxes.css" rel="stylesheet" type="text/css" />
+	<!-- Paho mqtt client from HiveMQ  https://www.hivemq.com/blog/mqtt-client-library-encyclopedia-paho-js/ ) -->
+	<script src="mqttws31.js" type="text/javascript"></script>
+	<script src="mqtt_util.js" type="text/javascript"></script>
+	<link rel="icon" type="image/png" sizes="30x30" href="favicon.png">
+</head>
+<body>
+<div style="border: 0px; width: 256px; height: 256px; margin: auto; padding: 70px 0px;">
+	<div  style="border: 0px; magin: auto; padding: 0px; z-index: 2; position: relative;"><img src="joystick-base.png" width="256"/></div>
+	<div id="stick" style="border: 0px; magin: auto; padding: 0px; z-index: 3; position: relative; left: 64px; top: -198px;"><img id="stick_image" src="joystick-red.png" width="128"/></div>
+</div>
+
+<div class="container">
+	<div class="item" id="forward"><button onclick="javascript:sendData('controller/action','standUp');">StandUp</button>
+	</div>
+	<div class="item" id="backward"><button onclick="javascript:sendData('controller/action','standDown');">StandDown</button>
+	</div>
+	<div class="item" id="left"><button onclick="javascript:sendData('controller/action','walk');">Walk</button>
+	</div>
+	<div class="item" id="right"><button onclick="javascript:sendData('controller/action','recoverStand');">RecoverStand</button>
+	</div>
+	<div class="item" id="stop"><button onclick="javascript:sendData('controller/action','damping');">Damping</button>
+	</div>
+	<script type="text/javascript">connect();</script>
+
+<!-- joystick controller from -->
+<script src="go1_joystick.js" type="text/javascript"></script>
+
+</body>
+</html>
+
