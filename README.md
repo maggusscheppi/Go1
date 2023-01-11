@@ -69,7 +69,9 @@ Edit <code>.startlist.sh</code> and add at the end the line <code>diagnosis</cod
 Now take the webpart <code>\~/Unitree/autostart/webMonitor/dist/diagnosis</code> and copy it also on your system.<br>
 At next boot phase this script will run. You may check by <br>
 <code>tail -f ~/Unitree/autostart/webMonitor/dist/diagnosis/bms.csv</code><br>
-if data is stored or by accessing the web visualisation with <code>http://192.168.12.1/diagnosis</code>
+if data is stored or by accessing the web visualisation with <code>http://192.168.12.1/diagnosis</code><br>
+Webview:<br>
+<img src="https://github.com/maggusscheppi/Go1/blob/main/bms_view.jpg" width=300px;/>
 
 ## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
