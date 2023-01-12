@@ -1,6 +1,10 @@
 # Go1 scripts and knowhow
 
-## 1) Method and script for using USB-Modem on the raspberry to connect to internet
+* [Connect the bot with LTE to the Internet](#method-and-script-for-using-usb-modem-on-the-raspberry-to-connect-to-internet)
+* [Turn of video/audio using processes on head nano](#turn-of-videoaudio-using-processes-on-head-nano)
+* [Stream video of frontcam with ffmpeg to rtsp-server](stream-video-of-frontcam-with-ffmpeg-to-rtsp-server)
+
+## Method and script for using USB-Modem on the raspberry to connect to internet
 use addUSB-Modem.sh on the raspberry (192.168.123.161)<br>
 Boot the Go1 and wait until it stands up.<br>
 Plug in the USB-Modem.<br>
@@ -9,7 +13,7 @@ Call<code>sudo addUSB-Modem.sh</code><br>
 Check with <code>ip r</code> and a ping to a server in the internet.<br>
 
 
-## 2) Turn of video/audio using processes on head nano
+## Turn of video/audio using processes on head nano
 On the head nano (192.168.123.13):<br>
 In some cases you may want to access cam or speaker of the head nano for your own purposes.<br>
 You have to kill these processes: <br>
@@ -17,7 +21,7 @@ You have to kill these processes: <br>
 <code>pkill -f point_cloud_nod</code><br>
 <code>pkill -f example_point</code><br>
 
-## 3) Stream video of frontcam with ffmpeg to rtsp-server
+## Stream video of frontcam with ffmpeg to rtsp-server
 On the head nano (192.168.123.13):<br>
 If the video device /dev/video1 (the frontcam) is available, try this:<br>
 <code>ffmpeg -nostdin -f video4linux2 -i /dev/video1 -vcodec libx264 -preset:v ultrafast -tune zerolatency -framerate 15 -f flv 'rtsp://yourRTSPserver/yourRTSPconnectionPoint'
