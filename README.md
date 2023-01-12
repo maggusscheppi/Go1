@@ -9,7 +9,7 @@
 * [Add your own web interface](#add-your-own-web-interface)
 * [Run your own scripts at boot](#run-your-own-scripts-at-boot)
 * [Let the head led blink red when battery soc is 4](#let-the-head-led-blink-red-when-battery-soc-is-4)
-* [Using mqtt-explorer on a host connected with Go1]()
+* [Using mqtt-explorer on a host connected with Go1](#using-mqtt-explorer-on-a-host-connected-with-go1)
 * [Ressources](#ressources)
 
 ## Method and script for using USB-Modem on the raspberry to connect to internet
@@ -86,7 +86,7 @@ Webview:<br>
 <img src="https://github.com/maggusscheppi/Go1/blob/main/bms_view.jpg" width=300px;/>
 
 ## Using mqtt-explorer on a host connected with Go1
-see 
+see <https://github.com/maggusscheppi/Go1/blob/main/go1_mqtt.pdf/>
 
 ## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
