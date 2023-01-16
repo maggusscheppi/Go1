@@ -95,6 +95,9 @@ all about the dog
 ### https://github.com/Bin4ry/free-dog-sdk
 get rid of sdk binaries
 
+### https://gist.github.com/dbaldwin/b31835f87f16450a956cf3c89e15a289
+Unitree Go1 Wireless Network Setup for Low Level Control with Windows and Docker
+
 
 
 
