@@ -90,6 +90,10 @@ see <https://github.com/maggusscheppi/Go1/blob/main/go1_mqtt.pdf/>
 
 ## Ressources
 ### https://github.com/MAVProxyUser/YushuTechUnitreeGo1
+all about the dog
+
+### https://github.com/Bin4ry/free-dog-sdk
+get rid of sdk binaries
 
 
 
