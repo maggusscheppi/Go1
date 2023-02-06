@@ -1,3 +1,3 @@
 #!/bin/bash
-ssh unitree@192.168.123.13 /home/unitree/charly_barks.sh
+ssh unitree@192.168.123.13 /home/unitree/go1_barks.sh
 
