@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<link href="plotter.css" rel="stylesheet" type="text/css" />
+<script src="highcharts.js"></script>
+<script src="data.js"></script>
+<script src="exporting.js"></script>
+<script src="export-data.js"></script>
+<script src="accessibility.js"></script>
+</head>
+<body>
+<figure class="highcharts-figure">
+  <div id="container"></div>
+</figure>
+
+<div class="ld-row">
+	<label class="ld-label">
+		Enable Polling
+	</label>
+	<input type="checkbox" checked="checked" id="enablePolling"/>
+</div>
+<div class="ld-row">
+	<label class="ld-label">
+		Polling Time (Seconds)
+	</label>
+	<input class="ld-time-input" type="number" value="1" id="pollingTime"/>
+</div>
+<div class="ld-row">
+	<label class="ld-label">
+		CSV URL
+	</label>
+	<input class="ld-url-input" type="text" id="fetchURL"/>
+</div>
+
+<script src="plotter.js" type="text/javascript"></script>
+</body>
+
