@@ -20,15 +20,19 @@
 </div>
 
 <div class="container">
-	<div class="item" id="forward"><button onclick="javascript:sendData('controller/action','standUp');">StandUp</button>
+	<div class="item" id="left"><button onclick="javascript:sendData('controller/action','walk');"><img src='walk.jpg' height=30px;/></button>
 	</div>
-	<div class="item" id="backward"><button onclick="javascript:sendData('controller/action','standDown');">StandDown</button>
+	<div class="item" id="left"><button onclick="javascript:sendData('controller/action','run');"><img src='run.jpg' height=30px;/></button>
 	</div>
-	<div class="item" id="left"><button onclick="javascript:sendData('controller/action','walk');">Walk</button>
+	<div class="item" id="left"><button onclick="javascript:sendData('controller/action','climb');"><img src='stairs.jpg' height=30px;/></button>
 	</div>
-	<div class="item" id="right"><button onclick="javascript:sendData('controller/action','recoverStand');">RecoverStand</button>
+	<div class="item" id="forward"><button onclick="javascript:sendData('controller/action','standUp');"><img src='up.png' height=30px;/></button>
 	</div>
-	<div class="item" id="stop"><button onclick="javascript:sendData('controller/action','damping');">Damping</button>
+	<div class="item" id="backward"><button onclick="javascript:sendData('controller/action','standDown');"><img src='down.png' height=30px;/></button>
+	</div>
+	<div class="item" id="right"><button onclick="javascript:sendData('controller/action','recoverStand');"><img src='recover.png' height=30px;/></button>
+	</div>
+	<div class="item" id="stop"><button onclick="javascript:sendData('controller/action','damping');"><img src='damping.png' height=30px;/></button>
 	</div>
 	<script type="text/javascript">connect();</script>
 
