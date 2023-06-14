@@ -52,7 +52,7 @@ Boot the Go1 and wait until it stands up.<br>
 Call <code>sudo wifi_up.sh</code><br>
 Check with <code>ip r</code> if the interface is up.<br>
 Set your favorite home network by adding this at the end:<br>
-<code>/etc/wpa_supplicant/wpa_supplicant.conf</code>
+<code>/etc/wpa_supplicant/wpa_supplicant.conf</code><br>
 <code>network={
         ssid="yourSSID"
         psk="yourSecretPwD"
