@@ -6,6 +6,7 @@
 * [Let the dog bark](#let-the-dog-bark)
 * [Change volume of loudspeaker](#change-volume-of-loudspeaker)
 * [Turn on internal wlan](#turn-on-internal-wlan)
+* [... and bring head and nanos into the internet](#-and-bring-head-and-nanos-into-the-internet)
 * [Add your own web interface](#add-your-own-web-interface)
 * [Run your own scripts at boot](#run-your-own-scripts-at-boot)
 * [Let the head led blink red when battery soc is 4](#let-the-head-led-blink-red-when-battery-soc-is-4)
