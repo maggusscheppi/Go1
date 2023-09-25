@@ -62,7 +62,7 @@ Set your favorite home network by adding this at the end:<br>
 }</code>
 
 ## ... and bring head and nanos into the internet
-after activating the internal lan you have to change standard routes on head and nanos to point to the raspi<br>
+after activating the internal lan you have to change standard routes on head and nanos to point to the raspi
 <code>
 sudo ip route delete default 192.168.123.1
 sudo ip route add default 192.168.123.161
